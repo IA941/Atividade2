@@ -71,10 +71,10 @@ public class Main
         executorService.submit(() -> {
             new Main(100, 100, 0, 0);
         });
-        Thread.currentThread().sleep(5000);
-        executorService.submit(() -> {
-            new Main(500, 500, 1, 1);
-        });
+        //Thread.currentThread().sleep(5000);
+        //executorService.submit(() -> {
+        //    new Main(500, 500, 1, 1);
+        //});
         while (true) {
             //
         }
