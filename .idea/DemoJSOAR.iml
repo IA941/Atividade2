@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file:///production/DemoJSOAR" />
+    <output-test url="file:///test/DemoJSOAR" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rules" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/key" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="jsoar-libs" level="project" />
+    <orderEntry type="library" exported="" name="WorldServer3D" level="project" />
+    <orderEntry type="library" exported="" name="WS3DProxy" level="project" />
+  </component>
+</module>

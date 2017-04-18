@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="jsoar-libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-math3-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/docking-frames-common-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/docking-frames-core-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-16.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jcl-over-slf4j-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsoar-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsoar-debugger.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/logback-classic-1.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/logback-core-1.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/swingx-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/WS3DProxy.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../ws3d/lib/jme2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../ws3d/lib/json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../ws3d/lib/lwjgl2.9.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

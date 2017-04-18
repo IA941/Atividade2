@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="WS3DProxy">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../WS3DProxy/dist/WS3DProxy.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="WorldServer3D">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../ws3d/dist/WorldServer3D.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
