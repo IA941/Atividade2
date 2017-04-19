@@ -13,8 +13,6 @@ import java.util.concurrent.Executors;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.slf4j.LoggerFactory;
-import ws3dproxy.CommandExecException;
-import ws3dproxy.WS3DProxy;
 
 /**
  *
@@ -66,11 +64,15 @@ public class Main
 
     public static void main(String[] args) throws Exception
     {
-        new WS3DProxy().getWorld().reset();
-        ExecutorService executorService = Executors.newFixedThreadPool(2);
+        ExecutorService executorService = Executors.newFixedThreadPool(3);
+        executorService.submit(() -> {
+            worldserver3d.Main.main(null); 
+        });
+        Thread.currentThread().sleep(6000);
         executorService.submit(() -> {
             new Main(100, 100, 0, 0);
         });
+        // this doesn't work because of the bug related to the 2nd creatures' reference
         //Thread.currentThread().sleep(5000);
         //executorService.submit(() -> {
         //    new Main(500, 500, 1, 1);

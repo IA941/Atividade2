@@ -30,8 +30,7 @@ public class Environment
         try {
         w = proxy.getWorld();
         //w.reset();
-        proxy.createCreature(creatureX, creatureY, creaturePitch, creatureColor);
-        System.out.println("CreatureID: " + c.getName());
+        c = proxy.createCreature(creatureX, creatureY, creaturePitch, creatureColor);
         c.start();
         w.grow(1);
 
